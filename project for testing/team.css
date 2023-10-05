@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.94),rgba(0,0,0,0.64),rgba(0,0,0,0.35),rgba(0,0,0,0)) ,url(stimage.jpg) repeat   ;
+    background-size: 1540px 900px;  
+    font-family: "comic sans MS";
+    text-transform: uppercase;
+   
+  }
+  h2{
+    text-align: center;
+    color: chocolate;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .team-member {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #fcfbfc;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(247, 244, 244) ;
+    opacity: 0.8;
+  }
+  .team-member h3{
+    color:rgb(6, 206, 6);
+  }
+  .team-member p{
+    color: chocolate;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+  }

@@ -1,0 +1,119 @@
+*{
+    padding:0%;
+    margin: 0%;
+    font-family: "comic sans MS";
+   
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.94),rgba(0,0,0,0.64),rgba(0,0,0,0.35),rgba(0,0,0,0)) ,url(stimage.jpg) no-repeat  ;
+    background-size: 1540px 900px;  
+    font-family: "comic sans MS";
+    text-transform: uppercase;
+}
+.login-form{
+    width: 350 px;
+    top: 50%,50%;
+    left:50%;
+    transform: translate(-50,50);
+    position: absolute;
+    color: #fff;
+    top: 14%;
+    left: 35%;
+    bottom: 10%
+
+}
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 15px;
+   
+
+}
+.login-form p:hover{
+    color: red;
+}
+
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 15px;
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px aqua;
+   
+}
+.login-form #username_error,
+.login-form #pass_error{
+    margin-top: 5px;
+    width: 100%;
+    font-size:14px;
+    color:#ff854d;
+    background: rgba(255,0,0,0.2);
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+   display: none;
+
+}
+.register-form{
+    width: 350 px;
+    top: 50%;
+    left:50%;
+    transform: translate(50,-50);
+    position: absolute;
+    color: #fff;
+    top: 14%;
+    left: 35%;
+    bottom: 10%
+}
+.register-form p:hover{
+    color:red ;
+}
+.register-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.register-form p{
+    font-size: 20px;
+    margin: 15px;
+}
+.register-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.register-form button{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px;
+    padding: 10px 15px;
+    width: 100px;
+    border-radius: 5px;
+}
+.register-sucess{
+    
+    font-family: Verdana;
+    font-weight: bolder;
+    color: #fff;
+}

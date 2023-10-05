@@ -1,0 +1,23 @@
+body{
+    font-family:"comic sans MS";
+    color:white;
+    background: linear-gradient(rgba(0,0,0,0.94),rgba(0,0,0,0.64),rgba(0,0,0,0.35),rgba(0,0,0,0)) ,url(stimage.jpg) no-repeat  ;
+    background-size: 1540px 900px;
+    text-align: center;
+}
+p{
+    color: rgb(84, 253, 84);
+}
+h1{
+    color: chocolate;
+    width: 2px solid;
+    text-decoration-color: aqua;
+}
+h2:hover{
+   
+    color:red ;
+}
+input[type="submit"]:hover{
+    
+    box-shadow: 7px 5px 4px  rgb(3, 114, 3);
+}

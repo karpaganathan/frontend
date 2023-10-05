@@ -1,0 +1,42 @@
+body{
+    
+        font-family: "comic sans MS";;
+        background: url(bgc3.jpeg) ;
+        background-size: 1540px 900px ;
+        color: rgb(250, 250, 250);
+        fill-opacity: unset;
+}
+
+.single-menu h5,img{
+    width: 170px;
+    border: 1px dashed;
+}
+.menu-clm2 h1:hover{
+    color: darkorange;
+}
+.menu-clm2 h2{
+     text-align: center;
+}
+.title h1{
+    color: chocolate;
+}
+.menus h2:hover{
+    color: rgb(99, 233, 27);
+}
+.menu-clm1{
+        float: left;
+}
+.menu-clm2 {
+    float: left;
+    padding:41px;
+    padding-left: 33%;
+    padding-top: 0%;
+
+}
+.menu-clm3{
+    float: right;
+}
+.menu-clm3 h2{
+    text-align: center;
+}
+
